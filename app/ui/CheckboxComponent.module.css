@@ -1,0 +1,17 @@
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.customCheckbox {
+  /* Your custom styles for the checkbox */
+  width: 20px;
+  height: 20px;
+  border: 4px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.customCheckbox:checked {
+  background-color: blue;
+}
